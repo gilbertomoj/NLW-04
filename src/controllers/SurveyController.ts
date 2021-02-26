@@ -4,12 +4,12 @@ import { SurveysRepository } from '../repositories/SurveysRepository';
 
 class SurveyController {
     async create(request : Request , response : Response){
-        const { title, description} = request.body;
+        const { tittle, description} = request.body;
 
         const surveysRepository = getCustomRepository(SurveysRepository);
 
         const survey = surveysRepository.create({
-            title,
+            tittle,
             description
         });
         
