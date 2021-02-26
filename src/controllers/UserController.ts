@@ -23,7 +23,7 @@ class UserController{
 
         await usersRepository.save(user);
 
-        return response.status(201).json(user); 
+        return response.json(user); 
     }
 }
 
