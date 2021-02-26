@@ -7,7 +7,7 @@ class Survey{
     readonly id: string;
 
     @Column()
-    tittle : string;
+    title : string;
 
     @Column()
     description : string;
