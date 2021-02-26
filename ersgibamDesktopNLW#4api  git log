@@ -1,0 +1,103 @@
+[33mcommit ebc992e55441b7facbafc281b29211855cb29424[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Fri Feb 26 03:14:02 2021 -0300
+
+    feature(func): Instalação e integração das funcionalidades
+    
+    -Instalação e uso do Handlebars como template
+    -Envio de email com o uso do nodemailer
+
+[33mcommit a991c04e351678db80dde72f573a1a61ac3aba3f[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Fri Feb 26 01:02:19 2021 -0300
+
+    feature(server): Aplicando integrações
+    
+    -Criado model e repository ServerUser para integração
+
+[33mcommit f40a16d1fecb4ad56b07143037fad0b05a872485[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 22:37:54 2021 -0300
+
+    feature(migrations): Criado migrations de usuarios-pesquisa
+    
+    -Gerado a tabela 'surveys_users' no database
+
+[33mcommit 3379f622f124541193ac1768808a716b2d5e1cce[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 22:15:13 2021 -0300
+
+    feature(test):Correções
+
+[33mcommit 892cb627853b3b2b38b6960e0862cd68ef9d820e[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 22:02:12 2021 -0300
+
+    Revert "Revert "Revert "Revert "feature(tests): Instalação e execução de testes""""
+    
+    This reverts commit 51f193cf0bfaede3b5e5f524682e033fd65794d0.
+
+[33mcommit 51f193cf0bfaede3b5e5f524682e033fd65794d0[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 22:02:04 2021 -0300
+
+    Revert "Revert "Revert "feature(tests): Instalação e execução de testes"""
+    
+    This reverts commit 1014461b84025d7f6bca76251ce3ef6029648dec.
+
+[33mcommit 9300c09fd3c91e2296862b60b869a7a87d35b655[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 22:01:40 2021 -0300
+
+    Delete database.test.sqlite
+
+[33mcommit 93b2519aaa019fdba35fe7d193e4b0e175683be4[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 21:56:21 2021 -0300
+
+    Create database.test.sqlite
+
+[33mcommit 1014461b84025d7f6bca76251ce3ef6029648dec[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 21:49:14 2021 -0300
+
+    Revert "Revert "feature(tests): Instalação e execução de testes""
+    
+    This reverts commit 74e545a2b69db0b10eba79babb9f1718caca2b5e.
+
+[33mcommit 74e545a2b69db0b10eba79babb9f1718caca2b5e[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 21:47:36 2021 -0300
+
+    Revert "feature(tests): Instalação e execução de testes"
+    
+    This reverts commit 2c4a9a33d1be87f5a01097f5ba87bbdb4531d563.
+
+[33mcommit 2c4a9a33d1be87f5a01097f5ba87bbdb4531d563[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 16:22:20 2021 -0300
+
+    feature(tests): Instalação e execução de testes
+    
+    -Instalação da biblioteca de testes
+    -Testes automatizados com 'jest'
+
+[33mcommit d7ea942f5c145e47c10e66a7639890b7536229ed[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 00:35:24 2021 -0300
+
+    feature(surveys): Criada rota de visualização
+    
+    Rota para visualização de todos as pesquisas criadas
+
+[33mcommit 036f07ebc5f9fbf9b45989a0925836b8b23098e5[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 00:31:06 2021 -0300
+
+    feature(survey config): Configuração da tabela de 'Surveys' completa
+
+[33mcommit 5cf9d3f417f8deecde91706936ed6b8c218f1112[m
+Author: ggibamede <gibamedeiros.gmail.com>
+Date:   Thu Feb 25 00:11:14 2021 -0300
+
+    Initial commit
