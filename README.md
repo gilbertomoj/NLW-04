@@ -8,3 +8,4 @@ Aplicação web construída na trilha NodeJS da Next Level Week
 - [TypeORM](https://typeorm.io/)
 
     
+## :arrow_heading_down: Comandos 
