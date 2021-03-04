@@ -6,6 +6,13 @@ Aplicação web construída na trilha NodeJS da Next Level Week
 - [Express](https://expressjs.com/pt-br/)
 - [YARN](https://yarnpkg.com/)
 - [TypeORM](https://typeorm.io/)
-
+- [Jest](https://jestjs.io/)
+- [Ethereal-Email](https://ethereal.email/)
     
 ## :arrow_heading_down: Comandos 
+```sh
+# Para instalar todas as dependências, execute:
+$ npm i
+# Para iniciar a aplicação, execute
+$ npm start
+```
